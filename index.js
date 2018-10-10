@@ -9,7 +9,7 @@ function sortMessage(messages){
 	var lixeira = messages.splice(rand, 1);
 	return messageToSend;
 }
-api.send('3964605', sortMessage(messages));
+api.send('3977350', sortMessage(messages));
 console.log("ENVIADA 1");
 setInterval(function(){
 	api.send('3977350', sortMessage(messages));
